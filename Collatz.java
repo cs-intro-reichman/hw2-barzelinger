@@ -7,15 +7,15 @@ public class Collatz {
 		if (mode.equals("v")){
 			// calculating the sequences from 1 to seed.
 			for (int i = 1; i <= seed; i++){
-				String sequence = i + "";
 				int steps = 1;
 				int temp_seed = i;
+				String sequence = temp_seed + "";
 
 				// if seed is 1 then start from the second number.
 				if (i==1) {
-					sequence = 1 + " " + i + ""; // the final sequance.
 					steps = 2; // the amount of steps it took to get to 1.
 					temp_seed = 4;
+					sequence = 1 + " " + temp_seed + ""; // the final sequance.
 				}
 
 				// calculate the sequence.
@@ -38,4 +38,3 @@ public class Collatz {
 
 	}
 }
-
