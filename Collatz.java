@@ -34,7 +34,8 @@ public class Collatz {
 				System.out.println(sequence + " (" + steps + ")");
 			}
 		}
-		System.out.println("Every one of the first " + seed + " hailstone sequences reched 1.");
+		System.out.println("Every one of the first " + seed + " hailstone sequences reached 1.");
 
 	}
 }
+
