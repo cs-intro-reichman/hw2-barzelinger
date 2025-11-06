@@ -26,9 +26,11 @@ public class Cheers {
                 System.out.println("Give me " + an_a + " " + letter + ": " + letter + "!");
         }
         // print the cheer the amount of times given.
+        System.out.println("What does that spell?");
         for (int i = 0; i < count; i++){
                 System.out.println(cheer + "!!!");
         }
 }
 
 }
+
