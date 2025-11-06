@@ -15,11 +15,11 @@ public class Cheers {
                 for (int n = 0; n < add_AN.length(); n++){ 
                         // check if letter in the add_AN string, if so then return an and break else return a
                         if ((String.valueOf(letter)).indexOf(add_AN.charAt(n)) != -1){ 
-                                an_a = "an ";
+                                an_a = "an";
                         break;
                         }
                         else {
-                                an_a = "a  ";
+                                an_a = "a ";
                         }
                 }
                 // print the first part of the cheer.
@@ -33,4 +33,5 @@ public class Cheers {
 }
 
 }
+
 
