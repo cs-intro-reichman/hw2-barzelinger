@@ -1,3 +1,9 @@
+/*
+Feedback:
+very good and very clean
+do surround operators by a space 
+new_hours<=9 -> new_hours <= 9
+ */
 public class TimeCalc {
     public static void main(String[] args) {
         // extract the hours, minutes and minutes to add from input
